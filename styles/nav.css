@@ -23,4 +23,6 @@ nav ul li:last-child img {
     /* adicionei tamanho a imagem */
     width: 40px;
     height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
 }

@@ -1,10 +1,9 @@
-/* configuração global padrão do css */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/* salvando fontes e cores no seletor pseudo-classe raiz */
+
 :root {
     --brand-color: #EF5F4C;
     --background-color: #FFFFFF;
@@ -19,26 +18,24 @@
     --text-md: 14px/170% var(--font-family);
     --text-sm: 12px/170% var(--font-family);
 }
-/* configurando font, color text e background-color do body */
+
 body {
     font: var(--text);
     color: var(--text-color-secondary);
     background-color: var(--background-color);
 }
-/* adicionando cor ao texto e tirando o estilo inicial do link */
+
 a {
     text-decoration: none;
     color: inherit;
 }
-/* adicionando cor ao passar o mouse e adicionando 
-o 'underline' para indicar um  */
+
 a:hover {
     color: var(--brand-color);
     text-decoration: underline;
 }
-/* adicionando espaços em todo o projeto (q conter a class .container) */
+
 .container {
-    /* customiza apenas o padding do eixo X */
     padding-inline: 32px;
     max-width: 1280px;
     margin-inline: auto;

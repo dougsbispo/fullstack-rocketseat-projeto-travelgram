@@ -1,0 +1,26 @@
+nav {
+    /* configuração do nav completo */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 0;
+    padding-block: 20px ;
+    
+}
+
+nav ul {
+    /* configurações de texto e items do menu da parte lateral direita */
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+    /* espaços no menu lateral direito>>> */
+    gap: 20px;
+    padding-block: 8px;
+}
+
+nav ul li:last-child img {
+    /* adicionei tamanho a imagem */
+    width: 40px;
+    height: 40px;
+}
